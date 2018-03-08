@@ -19,6 +19,8 @@ chmod 777 /opt/comment-fstab /opt/uncomment-fstab
 
 Then proceed.
 
+*Note that commenting out /etc/ld.so.conf may no longer be necessary (will test eventually)*
+
 ### Other first boots
 If this is your first time using an image after pulling it from a card, run `qemu.sh` with your image file.
 

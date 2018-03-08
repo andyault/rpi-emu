@@ -7,4 +7,4 @@ sudo /usr/local/bin/qemu-system-arm \
 	-append "root=/dev/sda panic=1 rootfstype=ext4 rw" \
 	-drive "file=$1,index=0,media=disk,format=raw" \
 	-net nic -net user \
-	-redir tcp:5022::22
+	-netdev user,hostfwd=tcp::5022-:22

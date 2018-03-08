@@ -21,5 +21,10 @@ Once QEMU has been installed, you may now do the following:
 3. [Saving image files](3-saving-images.md)
 4. And, optionally: [Mounting images](4-mounting-images.md)
 
+# Notes
+* This guide is mostly for myself, so some things may not work everywhere
+* Might not need to comment out `/etc/ld.so.conf` anymore, will need to test
+* SSH doesn't seem to work, but that may be related to comments found [here](https://gist.github.com/hfreire/5846b7aa4ac9209699ba#gistcomment-2348384)
+
 # Credits
 Much of this guide was developed with help from [hfreire](https://gist.github.com/hfreire)'s gist (found [here](https://gist.github.com/hfreire/5846b7aa4ac9209699ba))
