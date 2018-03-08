@@ -1,0 +1,6 @@
+# ignore image files
+images/*
+!images/readme.md
+
+# ignore qemu kernel
+kernel-qemu-4.4.34-jessie
