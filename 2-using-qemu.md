@@ -11,7 +11,7 @@ At the command line (in QEMU), run the following:
 sed -i -e 's/^/#/' /etc/ld.so.conf
 
 # Comment out /etc/fstab
-printf "#!/bin/sh\nsed '/\//^\([^#]\)/#\1/' /etc/fstab -i" > /opt/comment-fstab
+printf "#!/bin/sh\nsed '/\//s/^\([^#]\)/#\1/' /etc/fstab -i" > /opt/comment-fstab
 printf "#!/bin/sh\nsed '/\//s/^#\+//' /etc/fstab -i" > /opt/uncomment-fstab
 
 chmod 777 /opt/comment-fstab /opt/uncomment-fstab
