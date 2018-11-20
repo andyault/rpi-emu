@@ -19,7 +19,7 @@ ext4fuse /dev/diskNsN <name> -o allow_other
 
 ```
 diskutil unmountDisk <name>
-diskutil eject <name>
+rm -rf name
 
 diskutil unmountDisk diskN
 diskutil eject diskN
